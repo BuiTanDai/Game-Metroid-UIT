@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Win Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Components\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Game Components\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Game Components\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Game Components\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>Game Components\SceneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Game Components\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Components\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture.cpp">
+      <Filter>Game Components\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Components\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Game Components\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Game Components\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game Components\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>Game Components\SceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Game Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Components\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture.h">
+      <Filter>Game Components\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game Components">
+      <UniqueIdentifier>{9ac612de-b939-43b0-b20f-87fb9e819a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win Main">
+      <UniqueIdentifier>{e6e860ce-828d-4ada-9116-944a81aaeb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Game">
+      <UniqueIdentifier>{ce633989-020a-414e-ac2b-6ceb884a3763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Camera">
+      <UniqueIdentifier>{971199a1-eb77-4b3a-9ee0-dd0fc24db23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Global">
+      <UniqueIdentifier>{4bfff9d0-c58a-4be2-9444-a049c9a32b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Texture">
+      <UniqueIdentifier>{9cbe069d-0bc1-4721-90da-019ad90ba899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Sprite">
+      <UniqueIdentifier>{dd0a1974-8d98-4cce-afe7-d311f6af2ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Map">
+      <UniqueIdentifier>{4fb6951c-6559-41fc-9ee7-45bb1499da6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Object">
+      <UniqueIdentifier>{bf8c814f-b6c3-40dc-884b-cdaad2beccca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\SceneMain">
+      <UniqueIdentifier>{860a0c29-9744-4a95-bffe-e7c9ca8495a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Utils">
+      <UniqueIdentifier>{8d9d553b-73ae-4019-9c4b-c9fb0dfe5b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{84b6d3c6-dbd7-4b29-9a33-69f98d78ea0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

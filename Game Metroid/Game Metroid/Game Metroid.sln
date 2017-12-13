@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeTroid", "MeTroid.vcxproj", "{43E5970D-2710-4602-A295-5385C0F9F8C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E5970D-2710-4602-A295-5385C0F9F8C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{43E5970D-2710-4602-A295-5385C0F9F8C6}.Debug|x86.Build.0 = Debug|Win32
+		{43E5970D-2710-4602-A295-5385C0F9F8C6}.Release|x86.ActiveCfg = Release|Win32
+		{43E5970D-2710-4602-A295-5385C0F9F8C6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18BF73E7-FCA1-44FA-80C8-D615CFCF72A5}
+	EndGlobalSection
+EndGlobal
