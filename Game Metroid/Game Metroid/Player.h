@@ -27,31 +27,40 @@
 
 enum STATE
 {
-	NONE = 0,
-	MOVE = 1,
-	JUMP = 2,
-	FALL = 3,
-	ROLL = 4,
-	LOOKUP = 5,
-	ATTACK = 6,
+	NONE = 0,//
+	MOVE = 1,//
+	JUMP = 2,//
+	FALL = 3,//
+	ROLL = 4,//
+	LOOKUP = 5,//
+	ATTACK = 6,//
 	COLLISION_ENEMY = 7,
 
-	MOVE_JUMP = 8,
-	MOVE_JUMP_ATTACK = 10,
-	MOVE_FALL = 10,
-	MOVE_FALL_ATTACK = 11,
+	MOVE_JUMP = 8,//
+	MOVE_JUMP_ATTACK = 10,//
+	
+	FALL_ATTACK = 11, //
+	FALL_LOOKUP = 13, //
+	FALL_LOOKUP_ATTACK = 14, //chưa đc
 
-	MOVE_ROLL = 12,
-	MOVE_LOOPUP = 12,
-	MOVE_LOOPUP_JUMP = 12,
-	MOVE_LOOPUP_FALL = 12,
-	MOVE_LOOPUP_ATTACK = 12,
-	MOVE_LOOKUP_JUMP_ATTACK = 12,
-	MOVE_LOOKUP_FALL_ATTACK = 12,
+	MOVE_ROLL = 15, //
+	MOVE_LOOKUP = 16, //
+	MOVE_LOOKUP_JUMP = 17,//
 
-	MOVE_ATTACK = 12,
-	WEAPON_ATTACK = 12,
-	DIE = 13
+	
+
+	MOVE_LOOKUP_ATTACK = 18,//
+	MOVE_LOOKUP_JUMP_ATTACK = 19,//
+
+	
+
+	MOVE_ATTACK = 20, //
+	WEAPON_ATTACK = 21,
+	DIE = 22,
+
+	JUMP_ATTACK = 23, //
+	JUMP_LOOKUP = 24,//
+	JUMP_LOOKUP_ATTACK = 25 //
 };
 
 class Player : public Object
@@ -84,7 +93,7 @@ public:
 	bool canMove = false;
 	bool isMoveJump = false;
 
-	bool canJump = false;
+	bool canJump = true;
 	bool isJump = false;
 
 	bool isFall = false;

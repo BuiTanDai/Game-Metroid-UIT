@@ -86,9 +86,6 @@
     <Filter Include="Game Components\Texture">
       <UniqueIdentifier>{9cbe069d-0bc1-4721-90da-019ad90ba899}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game Components\Sprite">
-      <UniqueIdentifier>{dd0a1974-8d98-4cce-afe7-d311f6af2ff6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game Components\Map">
       <UniqueIdentifier>{4fb6951c-6559-41fc-9ee7-45bb1499da6e}</UniqueIdentifier>
     </Filter>
@@ -103,6 +100,9 @@
     </Filter>
     <Filter Include="Player">
       <UniqueIdentifier>{84b6d3c6-dbd7-4b29-9a33-69f98d78ea0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Sprite">
+      <UniqueIdentifier>{dd0a1974-8d98-4cce-afe7-d311f6af2ff6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

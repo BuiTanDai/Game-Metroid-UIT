@@ -1,1 +1,33 @@
-﻿  MeTroid.vcxproj -> C:\Users\TanDai\Desktop\Game-Metroid-UIT\Game Metroid\Game Metroid\Debug\MeTroid.exe
+﻿  Player.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.h(13): warning C4005: 'PLAYER_STOP_IMAGE': macro redefinition
+  c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.h(11): note: see previous definition of 'PLAYER_STOP_IMAGE'
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(160): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(165): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(197): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(219): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(286): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(292): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(315): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(343): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(349): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(371): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(394): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(421): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(444): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(450): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(484): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(490): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(513): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(518): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(536): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(541): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(560): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(565): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(585): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(608): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(632): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(648): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(649): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+c:\users\tandai\desktop\game-metroid-uit\game metroid\game metroid\player.cpp(650): warning C4244: 'argument': conversion from 'FLOAT' to 'int', possible loss of data
+  MeTroid.vcxproj -> C:\Users\TanDai\Desktop\Game-Metroid-UIT\Game Metroid\Game Metroid\Debug\MeTroid.exe

@@ -14,7 +14,7 @@ public:
 	float Vx;	// Vận tốc theo trục X
 	float Vy;	// Vận tốc theo trục Y
 
-	int isMove;	// Đang di chuyển = 1; Đứng yên = 0;
+	bool isMove;	// Đang di chuyển = 1; Đứng yên = 0;
 	int IsAttacking;
 	int Trend;		// Phương hướng, trái = -1, phải = 1;
 

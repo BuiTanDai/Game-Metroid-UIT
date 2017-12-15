@@ -1,4 +1,4 @@
-#include "SceneMain.h"
+﻿#include "SceneMain.h"
 
 SceneMain::SceneMain(int _nCmdShow) : Game(_nCmdShow)
 {
@@ -24,7 +24,7 @@ void SceneMain::ProcessInput(LPDIRECT3DDEVICE9 d3ddv, int Delta)
 {
 	bool check = false;
 
-	if (IsKeyDown(DIK_C))
+	if (IsKeyDown(DIK_V))
 	{
 		player->isAttack = true;
 		check = true;
@@ -32,8 +32,12 @@ void SceneMain::ProcessInput(LPDIRECT3DDEVICE9 d3ddv, int Delta)
 
 	if (IsKeyDown(DIK_X))
 	{
-		player->isJump = true;
-		check = true;
+		if (!player->isRoll) { // đang trạng thái khác roll thì mới nhảy
+			player->isJump = true;
+			check = true;
+		}
+		else
+			player->isRoll = false;
 	}
 	if (player->isJump)
 	{
@@ -43,6 +47,7 @@ void SceneMain::ProcessInput(LPDIRECT3DDEVICE9 d3ddv, int Delta)
 			check = true;
 		}
 	}
+	
 	if (IsKeyDown(DIK_DOWN))
 	{
 		player->isRoll = true;
