@@ -45,7 +45,7 @@ float Object::GetVy()
 
 int Object::GetMoving()
 {
-	return IsMoving;
+	return isMove;
 }
 
 int Object::GetAttacking()
@@ -55,7 +55,7 @@ int Object::GetAttacking()
 
 void Object::SetMoving(int a)
 {
-	IsMoving = a;
+	isMove = a;
 }
 
 int Object::GetTrend()
@@ -72,19 +72,19 @@ void Object::SetTrend(int a)
 void Object::MoveLeft()
 {
 	Vx = -Speed;
-	IsMoving = 1;
+	isMove = 1;
 	Trend = -1;
 }
 void Object::MoveRigh()
 {
 	Vx = Speed;
-	IsMoving = 1;
+	isMove = 1;
 	Trend = 1;
 }
 void Object::Stop()
 {
 	Vx = 0;
-	IsMoving = 0;
+	isMove = 0;
 	IsAttacking = 0;
 }
 

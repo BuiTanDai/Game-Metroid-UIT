@@ -7,14 +7,14 @@
 
 class Object
 {
-protected:
+public:
 	float x;	// Vị trí theo trục X
 	float y;	// Vị trí theo trục Y
 
 	float Vx;	// Vận tốc theo trục X
 	float Vy;	// Vận tốc theo trục Y
 
-	int IsMoving;	// Đang di chuyển = 1; Đứng yên = 0;
+	int isMove;	// Đang di chuyển = 1; Đứng yên = 0;
 	int IsAttacking;
 	int Trend;		// Phương hướng, trái = -1, phải = 1;
 

@@ -1,13 +1,1 @@
-﻿  GTexture.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\tandai\desktop\game map + animation basic\game metroid\gtexture.cpp(43): warning C4838: conversion from 'UINT' to 'LONG' requires a narrowing conversion
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  main.cpp
-  Sprite.cpp
-  SceneMain.cpp
-  Player.cpp
-  Object.cpp
-  Map.cpp
-  Camera.cpp
-  MeTroid.vcxproj -> C:\Users\TanDai\Desktop\Game Map + animation basic\Game Metroid\Debug\MeTroid.exe
+﻿  MeTroid.vcxproj -> C:\Users\TanDai\Desktop\Game-Metroid-UIT\Game Metroid\Game Metroid\Debug\MeTroid.exe

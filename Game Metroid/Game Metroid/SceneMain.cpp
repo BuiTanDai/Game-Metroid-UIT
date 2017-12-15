@@ -10,7 +10,7 @@ void SceneMain::RenderFrame(LPDIRECT3DDEVICE9 d3ddv, int t)
 	d3ddv->ColorFill(G_BackBuffer, NULL, D3DCOLOR_XRGB(0, 0, 0));
 
 	player->Update(camera, t);
-    camera->SetVCam(player->GetVx());
+	camera->SetVCam(player->GetVx());
 	camera->SetFolowPos(player->GetX(), player->GetY());
 	camera->UpdateCamera();
 
@@ -23,20 +23,47 @@ void SceneMain::RenderFrame(LPDIRECT3DDEVICE9 d3ddv, int t)
 void SceneMain::ProcessInput(LPDIRECT3DDEVICE9 d3ddv, int Delta)
 {
 	bool check = false;
+
 	if (IsKeyDown(DIK_C))
 	{
-		player->Attack();
+		player->isAttack = true;
 		check = true;
 	}
+
 	if (IsKeyDown(DIK_X))
 	{
-		player->Jump();
+		player->isJump = true;
+		check = true;
+	}
+	if (player->isJump)
+	{
+		if (IsKeyUp(DIK_X))
+		{
+			player->isFall = true;
+			check = true;
+		}
+	}
+	if (IsKeyDown(DIK_DOWN))
+	{
+		player->isRoll = true;
 		check = true;
 	}
 	if (IsKeyDown(DIK_UP))
 	{
-		player->LookUp();
-		check = true;
+		if (player->PLAYER_state == ROLL) {
+
+			// change to NONE
+			player->isMove = false;
+			player->isJump = false;
+			player->isLookUp = false;
+			player->isRoll = false;
+			player->isAttack = false;
+			player->isRoll = false;
+		}
+		else {
+			player->isLookUp = true;
+			check = true;
+		}
 	}
 	if (IsKeyDown(DIK_LEFT))
 	{
@@ -48,12 +75,12 @@ void SceneMain::ProcessInput(LPDIRECT3DDEVICE9 d3ddv, int Delta)
 		player->MoveRigh();
 		check = true;
 	}
-	if (!check) 
+	if (!check)
 	{
 		player->Stop();
 	}
-	
-	
+
+
 }
 
 void SceneMain::LoadResources(LPDIRECT3DDEVICE9 d3ddv)

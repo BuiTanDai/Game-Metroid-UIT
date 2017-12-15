@@ -253,6 +253,11 @@ int Game::IsKeyDown(int KeyCode)
 {
 	return (_KeyStates[KeyCode] & 0x80) > 0;
 }
+int Game::IsKeyUp(int KeyCode)
+{
+	return (_KeyStates[KeyCode] & 0x80) <= 0;
+}
+
 
 void Game::GameEnd()
 {

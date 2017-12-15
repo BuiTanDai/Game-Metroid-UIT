@@ -37,7 +37,7 @@ public:
 	virtual void OnKeyDown(int KeyCode);
 
 	int IsKeyDown(int KeyCode);
-
+	int IsKeyUp(int KeyCode);
 	void GameDraw(int deltaTime);
 
 	void RenderFrame();
